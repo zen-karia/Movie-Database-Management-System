@@ -55,7 +55,7 @@ def Search_File():
         y = input('Would you like to also hear a song from this movie (yes/no): ')
         if y.lower() == 'yes':
           print('Enjoy the song!\n')
-          playsound(movie+'.MP3')
+          playsound('Songs\\'+movie+'.MP3')
           fin.close()
           break
         else:
